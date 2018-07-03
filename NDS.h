@@ -3,7 +3,7 @@
 
 
 /**
- * Class implementing a non dominated frontier for
+ * Class declaring a non dominated frontier for bi-objective integer programming problems
  */
 
 
