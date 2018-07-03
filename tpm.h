@@ -96,7 +96,7 @@ class tpm{
 
         /**
          * @name Parameters and flags
-         * This section contains a list of parameters and flags used internally in the SSCFLPsolver class.
+         * This section contains a list of parameters and flags used internally in the tpm class.
          */
             double myZero;      //!< Below this value, and you are effectually equal to zero
             double myOne;       //!< Above this value and you are effectually equal to one
@@ -141,7 +141,7 @@ class tpm{
         void RunPhaseTwo ( CplexModel &theModel );
 
         /*! \brief Runs a ranking algorithm as phase two
-         * Generates all the solutions which are not found in phase one by ranking the solutions in the
+         * Generates all the solutions which are not found in phase one by ranking the solutions in the triangles
          */
         void RunPhaseTwoRanking ( CplexModel &theModel );
     public:
